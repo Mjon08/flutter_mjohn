@@ -1,0 +1,24 @@
+import 'dart:io';
+
+void main() {
+  int a, j, g, n = 6;
+
+  for (a = 0; a <= n - 1; a++) {
+    for (j = 0; j < a; j++) {
+      stdout.write(" ");
+    }
+    for (g = a; g <= n - 1; g++) {
+      stdout.write("0" + " ");
+    }
+    stdout.writeln("");
+  }
+  for (a = n - 1; a >= 0; a--) {
+    for (j = 0; j < a; j++) {
+      stdout.write(" ");
+    }
+    for (g = a; g <= n - 1; g++) {
+      stdout.write("0" + " ");
+    }
+    stdout.writeln("");
+  }
+}

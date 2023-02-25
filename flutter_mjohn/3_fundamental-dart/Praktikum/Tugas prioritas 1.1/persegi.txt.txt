@@ -1,0 +1,13 @@
+import 'dart:io';
+int luasPersegi(int sisi){
+  return sisi * sisi;
+}
+
+main(){
+  print("luas persegi");
+  stdout.write("Input sisi: ");
+  int s = int.parse(stdin.readLineSync());
+  int hasil = luasPersegi(s);
+
+  print("Luas: $hasil");
+}

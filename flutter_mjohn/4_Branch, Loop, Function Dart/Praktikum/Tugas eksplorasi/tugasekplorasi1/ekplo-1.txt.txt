@@ -1,0 +1,17 @@
+import 'dart:io';
+
+main(){
+  print("");
+
+  stdout.write("Inputkan nilai: ");
+  int nilai = int.parse(stdin.readLineSync());
+
+  String grade;
+
+  if(nilai >= 23) grade = "Bilangan prima";
+  else if(nilai >= 12) grade = "Bukan bilangan prima";
+
+  else grade = "";
+
+  print("Grade: $grade");
+} 

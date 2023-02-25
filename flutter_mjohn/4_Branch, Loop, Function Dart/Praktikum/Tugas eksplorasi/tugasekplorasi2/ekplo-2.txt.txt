@@ -1,0 +1,13 @@
+import "dart:io";
+void main() {
+  int n,i,a;
+
+  stdout.write("input nilai: ");
+  n=int.parse(stdin.readLineSync());
+  
+  for(i=1; i<10; i++) 
+    {
+      a=i*n;
+    print("$n*$i=$a");
+  }
+}

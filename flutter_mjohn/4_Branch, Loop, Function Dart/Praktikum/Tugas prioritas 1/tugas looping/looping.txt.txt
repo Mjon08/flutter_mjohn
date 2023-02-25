@@ -1,0 +1,6 @@
+void main() {
+  int angka =1;
+  for(angka; angka<=10; angka++) {
+    print(angka);
+  }
+}

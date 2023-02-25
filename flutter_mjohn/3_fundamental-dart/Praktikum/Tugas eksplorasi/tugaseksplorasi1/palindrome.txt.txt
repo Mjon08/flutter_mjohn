@@ -1,0 +1,18 @@
+import 'dart:io';
+void main() {
+print('Inputkan Kata');
+
+    String? original =  stdin.readLineSync();
+
+   String? reverse = original!.split('').reversed.join('');
+  if(original == reverse)
+  {
+    print('Palindrom');
+    
+  }
+  else
+  {
+    print('bukan palindrom');
+  }
+ 
+}

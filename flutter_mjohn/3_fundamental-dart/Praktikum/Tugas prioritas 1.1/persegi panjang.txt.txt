@@ -1,0 +1,10 @@
+void main(List <String> arguments) {
+  double lebar = 4.4;
+  double tinggi = 7.8;
+
+  double luas = lebar * tinggi;
+  double keliling = 2 * (lebar + tinggi);
+
+  print("Luas : $luas");
+  print("Keliling : $keliling");
+}

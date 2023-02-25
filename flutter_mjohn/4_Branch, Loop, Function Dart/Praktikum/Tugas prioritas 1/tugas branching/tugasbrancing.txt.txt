@@ -1,0 +1,16 @@
+import 'dart:io';
+main(){
+ print("Grade Nilai");
+ stdout.write("Masukkan nilai: ");
+ var NILAI = stdin.readLineSync();
+ double nilai = double.parse('$NILAI');
+  
+ String grade;
+  
+ if(nilai >= 70) grade = "A";
+ else if(nilai >= 40) grade = "B";
+ else if(nilai >= 0) grade = "C";
+  
+ else grade = "Remedial";
+ print("Grade: $grade");
+}

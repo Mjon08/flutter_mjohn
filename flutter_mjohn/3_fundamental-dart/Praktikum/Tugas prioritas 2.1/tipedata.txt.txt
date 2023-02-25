@@ -1,0 +1,11 @@
+void main(){
+    String nama = "jon";
+    int umur = 22;
+    double tinggi = 180;
+    bool isMenikah = false;
+    var alamat = "Aceh, Indonesia";
+  
+    print("Nama saya $nama. Umur $umur tahun. Tinggi sekitar $tinggi cm.");
+    print("Menikah: $isMenikah");
+    print("Alamat: $alamat");
+}
